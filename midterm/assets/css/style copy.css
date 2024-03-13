@@ -1,0 +1,60 @@
+body {
+    background-color: #3C5B8B;
+    margin: 0;
+    padding: 0;
+}
+
+.banner img{
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    padding-bottom: 120px;
+    position: relative;
+}
+
+.nav {
+    position: absolute;
+    right: 800px;
+    left: 0;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#store, #company, #contact, #account, #socials, #cart, #search {
+    width: 100px;
+}
+
+#store, #company, #contact, #account, #socials, #cart, #search:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#store, #company, #contact, #account, #socials, #cart, #search:visited {
+    color: darkblue;
+    text-decoration: none;
+}
+
+h1 {
+    color: white;
+    top: 700px;
+   left: 1200px;
+   display: flex;
+   justify-content: flex-end;
+}
+
+.content {
+    position: absolute;
+    top: 800px;
+    left: 150px;
+    display: flex;
+    gap: 20px;
+}
+
+p {
+    color: white;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
