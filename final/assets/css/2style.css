@@ -1,0 +1,112 @@
+.title {
+    font-family: 'Ingrid Darling';
+    text-align: center;
+    font-size: 80px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#book img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    max-height: 200px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#book:hover {
+    cursor: pointer;
+}
+
+.blurb {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FFFEE7;
+    padding: 20px;
+    border: 1px solid black;
+    z-index: 999;
+}
+
+.blurb.hidden {
+    display: none;
+}
+
+body {
+    background: #fff8fd;
+}
+
+.nav {
+    font-family: 'Old Standard TT';
+    font-size: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.nav--button:hover {
+    cursor: pointer;
+    color: pink;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #A94064;
+    text-decoration: none;
+}
+
+h3 {
+    font-family: 'Old Standard TT';
+    font-size: 32px;
+    padding: 20px;
+    margin: 100px auto 0;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 450px;
+    height: 400px;
+    padding: 10px;
+    margin: 20px auto 0;
+    background: #FFFEE7;
+    font-family: 'Old Standard TT';
+    font-size: 20px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+}
+
+.work-title {
+    font-family: 'Ingrid Darling';
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.containers {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container2:hover {
+    cursor: pointer;
+    color: pink;
+    text-decoration: underline;
+}
+
+.container2 {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    background: #FFFEE7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

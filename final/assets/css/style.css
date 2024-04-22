@@ -1,0 +1,101 @@
+.title {
+    font-family: 'Ingrid Darling';
+    text-align: center;
+    font-size: 80px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+body {
+    background: #fff8fd;
+}
+
+.nav {
+    font-family: 'Old Standard TT';
+    font-size: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.nav--button:hover {
+    cursor: pointer;
+    color: pink;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #A94064;
+    text-decoration: none;
+}
+
+.container {
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+    margin: 100px auto 0;
+    background: #FFFEE7;
+}
+
+
+.p-1 {
+    font-family: 'Old Standard TT';
+    font-size: 20px;
+    text-shadow: 1px 1px 2px grey;
+    display: flex;
+    justify-content: center;
+}
+
+.p-2 {
+    font-family: 'Old Standard TT';
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.p-3 {
+    font-family: 'Old Standard TT';
+    font-size: 20px;
+    margin: 20px;
+    line-height: 1.5;
+}
+
+.circle-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    height: 12%;
+}
+.circle {
+    width: 10px;
+    height: 10px;
+    background: black;
+    border-radius: 10px;
+    margin-left: 10px;
+    animation-name: wave;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.second.circle {
+    animation-delay: 0.25s;
+}
+
+.third.circle {
+    animation-delay: 0.5s;
+}
+
+@keyframes wave {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
